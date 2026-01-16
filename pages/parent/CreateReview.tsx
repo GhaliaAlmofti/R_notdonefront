@@ -15,7 +15,7 @@ const CreateReview: React.FC = () => {
     parent_communication: 0,
     comment: ''
   });
-
+  
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.student_number) return alert('Student Number is required');
